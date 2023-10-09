@@ -23,4 +23,5 @@ Your project will be accessible at [https://localhost](https://localhost)
 
 ## Test 2
 
-1. checkout the test-2 branch
+1. Checkout the test-2 branch
+2. Can you explain what does this application does ?
