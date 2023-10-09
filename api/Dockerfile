@@ -34,7 +34,6 @@ RUN set -eux; \
 		intl \
 		opcache \
 		zip \
-    	pcntl \
     ;
 
 ###> recipes ###
@@ -70,12 +69,6 @@ RUN set -eux; \
 	install-php-extensions \
     	xdebug \
     ;
-
-
-RUN docker-php-ext-configure pcntl --enable-pcntl \
-  && docker-php-ext-install \
-    pcntl \
-   ;
 
 COPY --link frankenphp/conf.d/app.dev.ini $PHP_INI_DIR/conf.d/
 
