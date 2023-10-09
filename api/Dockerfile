@@ -34,6 +34,7 @@ RUN set -eux; \
 		intl \
 		opcache \
 		zip \
+    	pcntl \
     ;
 
 ###> recipes ###
